@@ -1,4 +1,4 @@
-# FilterPipeNgx
+# FilterPipeNgx **NOT WORKING YET** PLEASE DO NOT INSTALL JUST TESTING
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.4.
 

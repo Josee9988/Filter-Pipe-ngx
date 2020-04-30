@@ -1,1 +1,1 @@
-export * from './src/app.module';
+export * from './src/pipes/filter.module';

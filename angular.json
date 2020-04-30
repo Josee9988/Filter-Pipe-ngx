@@ -14,8 +14,8 @@
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
             "outputPath": "dist/filter-pipe-ngx",
-            "index": "src/index.html",
-            "main": "src/app.module.ts",
+            "index": "",
+            "main": "src/pipes/filter.module.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
             "aot": true,
