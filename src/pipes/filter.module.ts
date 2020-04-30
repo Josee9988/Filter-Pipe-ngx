@@ -8,6 +8,6 @@ import {FilterPipe} from './filter.pipe';
   providers: [],
   bootstrap: []
 })
-class FilterModule {}
+export class FilterModule {}
 
-export * from './filter.pipe';
+export {FilterPipe} from './filter.pipe';

@@ -1,14 +1,12 @@
 {
-  "name": "filter-pipe-ngx",
-  "version": "0.0.4",
+  "name": "@josee9988/filter-pipe-ngx",
+  "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "packagr": "ng-packagr -p ng-package.json"
+    "publishnpm": "ng-packagr -p ng-package.json && npm publish --access=public dist"
   },
   "private": false,
   "doeerDpendencies": {
