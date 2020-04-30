@@ -5,6 +5,12 @@ import deburr from 'lodash.deburr';
   name: 'filterPipe',
   pure: false
 })
+/**
+ * Class that filters array of objects without with accent mark support.
+ * @author Jose Gracia
+ * @link repository: https://github.com/Josee9988/Filter-Pipe-ngx
+ * @link originally based on: https://github.com/solodynamo/ng2-search-filter
+ */
 export class FilterPipe implements PipeTransform {
 
   /**
