@@ -1,13 +1,12 @@
-# FilterPipeNgx **NOT WORKING YET** PLEASE DO NOT INSTALL JUST TESTING
+# **FilterPipeNgx** for angular universal **PLEASE DO NOT INSTALL JUST TESTING**
 
 **Simple angular pipe** that allows you to filter arrays of objects and simple arrays by a given text.
 
-This *angular universal filter pipe* is able to filter by any field in your array of objects and can even ignore the accent marks. 
+This *angular universal filter pipe* is able to filter by any field in your array of objects and can even ignore the **accent marks** or **upercase/lowercase** text. 
 
 Originally filter pipe based on [solodynamo/ng2-search-filter](https://github.com/solodynamo/ng2-search-filter), please do check his project.
 
 ---
-
 
 [![Version](https://badge.fury.io/js/%40josee9988%2Ffilter-pipe-ngx.svg)](https://www.npmjs.com/package/@josee9988/filter-pipe-ngx)
 [![Downloads](https://img.shields.io/npm/dt/@josee9988/filter-pipe-ngx.svg)](https://www.npmjs.com/package/@josee9988/filter-pipe-ngx)
@@ -24,13 +23,13 @@ Originally filter pipe based on [solodynamo/ng2-search-filter](https://github.co
 
 2. Import the pipe to your `app.module.ts`.
 
-    ```typescript
+    ```angular2
     import {FilterPipe} from '@josee9988/filter-pipe-ngx';
     ```
 
 3. Declare and initialize the pipe to your project.
 
-    ```typescript
+    ```angular2
     import {NgModule} from '@angular/core';
     // rest of your imports here...
     import {FilterPipe} from '@josee9988/filter-pipe-ngx'; // declare the pipe
@@ -45,7 +44,35 @@ Originally filter pipe based on [solodynamo/ng2-search-filter](https://github.co
 
 # Usage
 
+
+
 For deeper information about angular pipes [check the oficial documentation](https://angular.io/guide/pipes).
+
+---
+
+# Examples of use
+
+```angular2
+import {Component} from '@angular/core';
+
+@Component({
+  selector: 'app-example-filter-pipe-products',
+  template: `
+        <input type="text" [(ngModel)]="searchText"> <!-- Input in which you will filter your products (you array) -->
+        <div *ngFor = "let arrayItem of yourArrayToBeFiltered | filterPipe:searchText"> <!-- Display your data and filter it by your input -->
+          <p>Name: {{arrayItem.name}}, Inventory: {{arrayItem.inventory}}, price: {{arrayItem.price}}</p> <!-- Every object that matches the filter (if there is any filter) will be shown -->
+        </div>`
+})
+
+export class ExampleFilterPipeProducts {
+  yourArrayToBeFiltered: any[] = [
+   {name: 'chair', inventory: 5, unit_price: 45.99},
+   {name: 'table', inventory: 10, unit_price: 123.75},
+   {name: 'sofa', inventory: 2, unit_price: 399.50},
+   {name: 'bed', inventory: 4, unit_price: 592.12}];
+  searchText: string;
+}
+```
 
 ---
 

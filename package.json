@@ -1,13 +1,46 @@
 {
   "name": "@josee9988/filter-pipe-ngx",
-  "version": "0.0.0",
+  "description": "Angular universal pipe to filter arrays of objects. Support for accent marks and upper/lowercase.",
+  "version": "1.0.0-beta.0",
   "scripts": {
     "ng": "ng",
     "test": "ng test",
     "lint": "ng lint",
-    "publishnpm": "ng-packagr -p ng-package.json && npm publish --access=public dist"
+    "packagr": "ng-packagr -p ng-package.json",
+    "publishNpm": "npm publish --access=public dist",
+    "globalPublish": "npm run packagr && npm run publishNpm"
   },
   "private": false,
+  "keywords": [
+    "angular",
+    "universal",
+    "ngx",
+    "filter",
+    "pipe",
+    "angular8",
+    "angular9",
+    "angularx",
+    "ng2",
+    "case sensitive",
+    "accent mark",
+    "array",
+    "objects",
+    "filtering"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Josee9988/Filter-Pipe-ngx"
+  },
+  "bugs": {
+    "url": "https://github.com/Josee9988/Filter-Pipe-ngx/issues"
+  },
+  "homepage": "https://github.com/Josee9988/Filter-Pipe-ngx#readme",
+  "author": {
+    "name": "@Josee9988",
+    "email": "jgracia9988@gmail.com",
+    "url": "https://github.com/Josee9988"
+  },
+  "license": "MIT",
   "doeerDpendencies": {
     "lodash.deburr": "^4.1.0"
   },
@@ -15,6 +48,7 @@
     "@angular-devkit/build-angular": "~0.901.4",
     "@angular/cli": "~9.1.4",
     "@angular/compiler-cli": "~9.1.4",
+    "@angular/compiler": "^9.1.4",
     "@angular/core": "~9.1.4",
     "@types/jasmine": "~3.5.0",
     "@types/jasminewd2": "~2.0.3",
