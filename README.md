@@ -44,9 +44,14 @@ Originally filter pipe based on [solodynamo/ng2-search-filter](https://github.co
 
 # Examples of use
 
+[<img align="center" src="https://i.imgur.com/vi4Ii2u.gif" alt="example of other web">
+](https://stackblitz.com/edit/filter-pipe-ngx)
+
+Example of other web using it.
+
 ## Stackblitz example
 
-[<img align="center" src="https://i.imgur.com/h0wixcz.png" alt="image of stackblitz">
+[<img align="center" src="https://i.imgur.com/s25VibI.gif" alt="example of stackblitz">
 ](https://stackblitz.com/edit/filter-pipe-ngx)
 
 Check the **[stackblitz example](https://stackblitz.com/edit/filter-pipe-ngx)** or simply click the above image!
