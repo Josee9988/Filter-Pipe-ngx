@@ -6,13 +6,10 @@ This *angular universal filter pipe* is able to filter by any field in your arra
 
 Originally filter pipe based on [solodynamo/ng2-search-filter](https://github.com/solodynamo/ng2-search-filter), please do check his project.
 
----
-
 [![Version](https://badge.fury.io/js/%40josee9988%2Ffilter-pipe-ngx.svg)](https://www.npmjs.com/package/@josee9988/filter-pipe-ngx)
-[![Downloads](https://img.shields.io/npm/dt/@josee9988/filter-pipe-ngx.svg)](https://www.npmjs.com/package/@josee9988/filter-pipe-ngx)
-[![Downloads](https://img.shields.io/npm/dt/@josee9988/filter-pipe-ngx.svg)](https://www.npmjs.com/package/@josee9988/filter-pipe-ngx)
 
 ---
+
 
 # Installation
 
