@@ -1,7 +1,7 @@
 {
   "name": "@josee9988/filter-pipe-ngx",
   "description": "Angular universal pipe to filter arrays of objects. Support for accent marks and upper/lowercase.",
-  "version": "1.0.0-beta.1",
+  "version": "1.0.0",
   "scripts": {
     "ng": "ng",
     "test": "ng test",

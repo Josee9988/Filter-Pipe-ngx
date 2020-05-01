@@ -1,4 +1,4 @@
-# **FilterPipeNgx** for angular universal **PLEASE DO NOT INSTALL JUST TESTING**
+# **FilterPipeNgx** for angular universal
 
 **Simple angular pipe** that allows you to filter arrays of objects and simple arrays by a given text.
 
@@ -39,18 +39,19 @@ Originally filter pipe based on [solodynamo/ng2-search-filter](https://github.co
         FilterPipe, // add the pipe to your declarations
         // rest of the code ...
     ```
-   
----
-
-# Usage
-
-
-
-For deeper information about angular pipes [check the oficial documentation](https://angular.io/guide/pipes).
 
 ---
 
 # Examples of use
+
+## Stackblitz example
+
+[<img align="center" src="https://i.imgur.com/h0wixcz.png" alt="image of stackblitz">
+](https://stackblitz.com/edit/filter-pipe-ngx)
+
+Check the **[stackblitz example](https://stackblitz.com/edit/filter-pipe-ngx)** or simply click the above image!
+
+## Direct component example
 
 ```angular2
 import {Component} from '@angular/core';
@@ -58,21 +59,29 @@ import {Component} from '@angular/core';
 @Component({
   selector: 'app-example-filter-pipe-products',
   template: `
-        <input type="text" [(ngModel)]="searchText"> <!-- Input in which you will filter your products (you array) -->
-        <div *ngFor = "let arrayItem of yourArrayToBeFiltered | filterPipe:searchText"> <!-- Display your data and filter it by your input -->
-          <p>Name: {{arrayItem.name}}, Inventory: {{arrayItem.inventory}}, price: {{arrayItem.price}}</p> <!-- Every object that matches the filter (if there is any filter) will be shown -->
-        </div>`
+<!-- Input in which you will filter your products (you array) -->
+<input type="text" [(ngModel)]="searchText">
+
+<!-- Display your data and filter it by your input -->
+<div *ngFor = "let arrayItem of yourArrayToBeFiltered | filterPipe:searchText">
+
+    <!-- Every object that matches the filter (if there is any filter) will be shown -->
+  <p>Name: {{arrayItem.name}}, Inventory: {{arrayItem.inventory}}, price: {{arrayItem.price}}</p>
+</div>`
 })
 
 export class ExampleFilterPipeProducts {
   yourArrayToBeFiltered: any[] = [
-   {name: 'chair', inventory: 5, unit_price: 45.99},
-   {name: 'table', inventory: 10, unit_price: 123.75},
-   {name: 'sofa', inventory: 2, unit_price: 399.50},
-   {name: 'bed', inventory: 4, unit_price: 592.12}];
+   {name: 'chair', inventory: 5, price: 45.99},
+   {name: 'table', inventory: 10, price: 123.75},
+   {name: 'sofa', inventory: 2, price: 399.50},
+   {name: 'bed', inventory: 4, price: 592.12}];
   searchText: string;
 }
 ```
+
+For deeper information about angular pipes [check the oficial documentation](https://angular.io/guide/pipes).
+
 
 ---
 
