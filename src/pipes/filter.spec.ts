@@ -30,6 +30,18 @@ describe('FilterPipe', () => {
     expect(pipe.transform(simpleArray, 'a').toString()).toEqual(simpleArray[4].toString());
   });
 
+  it('should filter a simple string\'s array ignoring the accent marks', () => {
+    const pipe = new FilterPipe();
+    const simpleArray = ['por qué', 'á', 'adiós', 'camión', 'mä', 'žorro'];
+    expect(pipe.transform(simpleArray, 'por que').toString()).toEqual(simpleArray[0].toString());
+    expect(pipe.transform(simpleArray, 'que').toString()).toEqual(simpleArray[0].toString());
+    expect(pipe.transform(simpleArray, 'ue').toString()).toEqual(simpleArray[0].toString());
+    expect(pipe.transform(simpleArray, 'zorro').toString()).toEqual(simpleArray[5].toString());
+    expect(pipe.transform(simpleArray, 'adios').toString()).toEqual(simpleArray[2].toString());
+    expect(pipe.transform(simpleArray, 'ma').toString()).toEqual(simpleArray[4].toString());
+    expect(pipe.transform(simpleArray, 'mion').toString()).toEqual(simpleArray[3].toString());
+  });
+
   it('should filter multiple elements', () => {
     const pipe = new FilterPipe();
     expect(pipe.transform(exampleProducts, '5').toString()).toEqual(exampleProducts.toString());

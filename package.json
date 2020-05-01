@@ -1,25 +1,55 @@
 {
   "name": "@josee9988/filter-pipe-ngx",
-  "version": "0.0.0",
+  "description": "Angular universal pipe to filter arrays of objects. Support for accent marks and upper/lowercase.",
+  "version": "1.0.0",
   "scripts": {
     "ng": "ng",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e",
-    "publishnpm": "ng-packagr -p ng-package.json && npm publish --access=public dist"
+    "packagr": "ng-packagr -p ng-package.json",
+    "publishNpm": "npm publish --access=public dist",
+    "globalPublish": "npm run packagr && npm run publishNpm"
   },
   "private": false,
-  "doeerDpendencies": {
+  "keywords": [
+    "angular",
+    "universal",
+    "ngx",
+    "filter",
+    "pipe",
+    "angular8",
+    "angular9",
+    "angularx",
+    "ng2",
+    "case sensitive",
+    "accent mark",
+    "array",
+    "objects",
+    "filtering"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Josee9988/Filter-Pipe-ngx"
+  },
+  "bugs": {
+    "url": "https://github.com/Josee9988/Filter-Pipe-ngx/issues"
+  },
+  "homepage": "https://github.com/Josee9988/Filter-Pipe-ngx#readme",
+  "author": {
+    "name": "@Josee9988",
+    "email": "jgracia9988@gmail.com",
+    "url": "https://github.com/Josee9988"
+  },
+  "license": "MIT",
+  "dependencies": {
     "lodash.deburr": "^4.1.0"
   },
   "devDependencies": {
-    "@angular/core": "~9.1.4",
-    "rxjs": "~6.5.4",
-    "tslib": "^1.10.0",
-    "zone.js": "~0.10.2",
     "@angular-devkit/build-angular": "~0.901.4",
     "@angular/cli": "~9.1.4",
     "@angular/compiler-cli": "~9.1.4",
+    "@angular/compiler": "^9.1.4",
+    "@angular/core": "~9.1.4",
     "@types/jasmine": "~3.5.0",
     "@types/jasminewd2": "~2.0.3",
     "@types/node": "^12.11.1",
@@ -32,9 +62,11 @@
     "karma-jasmine": "~3.0.1",
     "karma-jasmine-html-reporter": "^1.4.2",
     "ng-packagr": "^9.1.2",
-    "protractor": "~5.4.3",
+    "rxjs": "~6.5.4",
     "ts-node": "~8.3.0",
+    "tslib": "^1.10.0",
     "tslint": "~6.1.0",
-    "typescript": "~3.8.3"
+    "typescript": "~3.8.3",
+    "zone.js": "~0.10.2"
   }
 }
