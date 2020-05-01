@@ -10,6 +10,7 @@ Originally filter pipe based on [solodynamo/ng2-search-filter](https://github.co
 
 [![Version](https://badge.fury.io/js/%40josee9988%2Ffilter-pipe-ngx.svg)](https://www.npmjs.com/package/@josee9988/filter-pipe-ngx)
 [![Downloads](https://img.shields.io/npm/dt/@josee9988/filter-pipe-ngx.svg)](https://www.npmjs.com/package/@josee9988/filter-pipe-ngx)
+[![Downloads](https://img.shields.io/npm/dt/@josee9988/filter-pipe-ngx.svg)](https://www.npmjs.com/package/@josee9988/filter-pipe-ngx)
 
 ---
 
@@ -24,19 +25,17 @@ Originally filter pipe based on [solodynamo/ng2-search-filter](https://github.co
 2. Import the pipe to your `app.module.ts`.
 
     ```angular2
-    import {FilterPipe} from '@josee9988/filter-pipe-ngx';
+    import {FilterModule} from '@josee9988/filter-pipe-ngx';
     ```
 
 3. Declare and initialize the pipe to your project.
 
     ```angular2
-    import {NgModule} from '@angular/core';
     // rest of your imports here...
-    import {FilterPipe} from '@josee9988/filter-pipe-ngx'; // declare the pipe
     
     @NgModule({
-      declarations: [
-        FilterPipe, // add the pipe to your declarations
+      imports: [ // in the imports section
+        FilterModule, // add the pipe to your declarations
         // rest of the code ...
     ```
 
@@ -47,7 +46,7 @@ Originally filter pipe based on [solodynamo/ng2-search-filter](https://github.co
 [<img align="center" src="https://i.imgur.com/vi4Ii2u.gif" alt="example of other web">
 ](https://stackblitz.com/edit/filter-pipe-ngx)
 
-Example of other web using it.
+Example of other integration in another web.
 
 ## Stackblitz example
 
@@ -72,6 +71,7 @@ import {Component} from '@angular/core';
 
     <!-- Every object that matches the filter (if there is any filter) will be shown -->
   <p>Name: {{arrayItem.name}}, Inventory: {{arrayItem.inventory}}, price: {{arrayItem.price}}</p>
+
 </div>`
 })
 

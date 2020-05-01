@@ -6,6 +6,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 
 ---
 
+## [**1.0.2**] - 2020-05-01
+
+### Changed
+
+* README.md location of the ngmodule (from declarations to imports).
+* Class will be imported from 'FilterPipe' to 'FilterModule' to avoid build to production errors.
+
 ## [**1.0.1**] - 2020-05-01
 
 ### Added
@@ -28,5 +35,5 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 
 ### Added
 
-* The pipe is working and the tests are running.
-* Published to npmjs.com as a beta to test it out in other projects.
+* The pipe is working, and the tests are running.
+* Published to [npmjs.com](https://www.npmjs.com/package/@josee9988/filter-pipe-ngx) as a beta to test it out in other projects.
