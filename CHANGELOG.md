@@ -6,6 +6,16 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 
 ---
 
+## [**1.0.3**] - 2020-05-02
+
+### Added
+
+* Some badges to the README.md file.
+
+### Fixed
+
+* Problem with the dependencies that made the test not run anymore.
+
 ## [**1.0.2**] - 2020-05-01
 
 ### Changed

@@ -7,10 +7,10 @@ This *angular universal filter pipe* is able to filter by any field in your arra
 Originally filter pipe based on [solodynamo/ng2-search-filter](https://github.com/solodynamo/ng2-search-filter), please do check his project.
 
 [![Version](https://badge.fury.io/js/%40josee9988%2Ffilter-pipe-ngx.svg)](https://www.npmjs.com/package/@josee9988/filter-pipe-ngx)
-
----
-
-
+[![Downloads](https://img.shields.io/npm/dt/@josee9988/filter-pipe-ngx.svg)](https://www.npmjs.com/package/@josee9988/filter-pipe-ngx)
+[![License](https://img.shields.io/npm/l/@josee9988/filter-pipe-ngx.svg)](/LICENSE) 
+[![Vulnerabilities](https://img.shields.io/snyk/vulnerabilities/npm/@josee9988/filter-pipe-ngx)](https://www.npmjs.com/package/@josee9988/filter-pipe-ngx)
+[![npm bundle size (scoped version)](https://img.shields.io/bundlephobia/minzip/@josee9988/filter-pipe-ngx/1.0.0)](https://www.npmjs.com/package/@josee9988/filter-pipe-ngx)
 # Installation
 
 1. Install the pipe to your project.
@@ -21,13 +21,13 @@ Originally filter pipe based on [solodynamo/ng2-search-filter](https://github.co
 
 2. Import the pipe to your `app.module.ts`.
 
-    ```angular2
+    ```typescript
     import {FilterModule} from '@josee9988/filter-pipe-ngx';
     ```
 
 3. Declare and initialize the pipe to your project.
 
-    ```angular2
+    ```typescript
     // rest of your imports here...
     
     @NgModule({
@@ -54,7 +54,7 @@ Check the **[stackblitz example](https://stackblitz.com/edit/filter-pipe-ngx)** 
 
 ## Direct component example
 
-```angular2
+```typescript
 import {Component} from '@angular/core';
 
 @Component({
@@ -84,6 +84,25 @@ export class ExampleFilterPipeProducts {
 
 For deeper information about angular pipes [check the oficial documentation](https://angular.io/guide/pipes).
 
+---
+
+## Contributing
+
+We are open to new contributors and help, to help the project please follow the steps!
+
+1. Download the repo and enter the directory (*or fork it and clone yours*)
+
+    `git clone https://github.com/Josee9988/Filter-Pipe-ngx.git && cd Filter-Pipe-ngx`
+    
+2. Install the npm dependencies.
+
+    `npm i`
+    
+3. Do all the changes and modifications you want.
+
+4. Make sure all the test pass
+
+    `npm run test`
 
 ---
 
