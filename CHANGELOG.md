@@ -6,6 +6,20 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 
 ---
 
+## [Unreleased]
+
+### Added
+
+* @types/jasmine in the dev dependencies.
+
+### Changed
+
+* From angular 8.x to 9.x.
+
+### Fixed
+
+* npm scripts from packagr to build.
+
 ## [**1.0.3**] - 2020-05-02
 
 ### Added

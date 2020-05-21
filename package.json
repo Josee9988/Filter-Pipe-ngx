@@ -6,9 +6,9 @@
     "ng": "ng",
     "test": "ng test",
     "lint": "ng lint",
-    "packagr": "ng-packagr -p ng-package.json",
+    "build": "ng-packagr -p ng-package.json",
     "publishNpm": "npm publish --access=public dist",
-    "globalPublish": "npm run packagr && npm run publishNpm"
+    "buildNPublish": "npm run build && npm run publishNpm"
   },
   "private": false,
   "keywords": [
