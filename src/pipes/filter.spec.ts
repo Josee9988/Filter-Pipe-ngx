@@ -1,3 +1,4 @@
+import {} from 'jasmine'; // in my case or jasmine if you're using jasmine
 import {FilterPipe} from './filter.pipe';
 
 const exampleProducts = [
