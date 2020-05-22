@@ -6,15 +6,18 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 
 ---
 
-## [Unreleased]
+## [**1.1.0**] - 2020-05-22
 
 ### Added
 
+* CI github tests on PR and push to master.
+* CI github badge in the README.md file.
 * @types/jasmine in the dev dependencies.
 
 ### Changed
 
 * From angular 8.x to 9.x.
+* Contributing section in the README.md file.
 
 ### Fixed
 

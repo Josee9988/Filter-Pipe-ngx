@@ -11,6 +11,10 @@ Originally filter pipe based on [solodynamo/ng2-search-filter](https://github.co
 [![License](https://img.shields.io/npm/l/@josee9988/filter-pipe-ngx.svg)](/LICENSE) 
 [![Vulnerabilities](https://img.shields.io/snyk/vulnerabilities/npm/@josee9988/filter-pipe-ngx)](https://www.npmjs.com/package/@josee9988/filter-pipe-ngx)
 [![npm bundle size (scoped version)](https://img.shields.io/bundlephobia/minzip/@josee9988/filter-pipe-ngx/1.0.0)](https://www.npmjs.com/package/@josee9988/filter-pipe-ngx)
+![Node.js CI](https://github.com/Josee9988/Filter-Pipe-ngx/workflows/Node.js%20CI/badge.svg)
+
+---
+
 # Installation
 
 1. Install the pipe to your project.
@@ -88,30 +92,16 @@ For deeper information about angular pipes [check the oficial documentation](htt
 
 ## Contributing
 
-We are open to new contributors and help, to help the project please follow the steps!
-
-1. Download the repo and enter the directory (*or fork it and clone yours*)
-
-    `git clone https://github.com/Josee9988/Filter-Pipe-ngx.git && cd Filter-Pipe-ngx`
-    
-2. Install the npm dependencies.
-
-    `npm i`
-    
-3. Do all the changes and modifications you want.
-
-4. Make sure all the test pass
-
-    `npm run test`
+This project is actively looking for new contributors to develop new functions, maintain and improve the project. If you are interested make sure to fork the project and pull-request your improvements to be added as a contributor!
 
 ---
 
 ### Did you enjoyed the package? Help us raise these numbers!
 
-[![Github followers](https://img.shields.io/github/followers/Josee9988.svg?style=social)](#did-you-enjoyed-the-package-help-us-raise-these-numbers-up--)
-[![Github stars](https://img.shields.io/github/stars/Josee9988/Filter-Pipe-ngx.svg?style=social)](#did-you-enjoyed-the-package-help-us-raise-these-numbers-up--)
-[![Github watchers](https://img.shields.io/github/watchers/Josee9988/Filter-Pipe-ngx.svg?style=social)](#did-you-enjoyed-the-package-help-us-raise-these-numbers-up--)
-[![Github forks](https://img.shields.io/github/forks/Josee9988/Filter-Pipe-ngx.svg?style=social)](#did-you-enjoyed-the-package-help-us-raise-these-numbers-up--)
+[![Github followers](https://img.shields.io/github/followers/Josee9988.svg?style=social)](#Contributing)
+[![Github stars](https://img.shields.io/github/stars/Josee9988/Filter-Pipe-ngx.svg?style=social)](#Contributing)
+[![Github watchers](https://img.shields.io/github/watchers/Josee9988/Filter-Pipe-ngx.svg?style=social)](#Contributing)
+[![Github forks](https://img.shields.io/github/forks/Josee9988/Filter-Pipe-ngx.svg?style=social)](#Contributing)
 
 Check the [npm page with the package](https://www.npmjs.com/package/@josee9988/filter-pipe-ngx).
 
