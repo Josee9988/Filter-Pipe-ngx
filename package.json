@@ -5,6 +5,7 @@
   "scripts": {
     "ng": "ng",
     "test": "ng test",
+    "test:ci": "ng test --watch=false --progress=false --browsers=ChromeHeadlessCI",
     "lint": "ng lint",
     "build": "ng-packagr -p ng-package.json",
     "publishNpm": "npm publish --access=public dist",
