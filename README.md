@@ -102,6 +102,7 @@ This project is actively looking for new contributors to develop new functions, 
 [![Github stars](https://img.shields.io/github/stars/Josee9988/Filter-Pipe-ngx.svg?style=social)](#Contributing)
 [![Github watchers](https://img.shields.io/github/watchers/Josee9988/Filter-Pipe-ngx.svg?style=social)](#Contributing)
 [![Github forks](https://img.shields.io/github/forks/Josee9988/Filter-Pipe-ngx.svg?style=social)](#Contributing)
+[![Sponsor](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=github-sponsors&color=red&style=social)](https://github.com/sponsors/Josee9988)
 
 Check the [npm page with the package](https://www.npmjs.com/package/@josee9988/filter-pipe-ngx).
 
